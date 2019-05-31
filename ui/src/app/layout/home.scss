@@ -61,6 +61,10 @@ md-sidenav.tb-site-sidenav {
   width: 250px;
 }
 
+md-topnav.tb-site-topnav {
+  width: 250px;
+}
+
 md-icon.tb-logo-title {
   width: 200px;
   height: 36px;
@@ -84,6 +88,10 @@ md-icon.tb-logo-title {
 }
 
 .tb-side-menu-toolbar {
+  overflow-y: auto;
+}
+
+.tb-top-menu-toolbar {
   overflow-y: auto;
 }
 
