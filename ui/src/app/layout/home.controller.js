@@ -90,6 +90,7 @@ export default function HomeController(types, loginService, userService, deviceS
         vm.isGtSm = isGtSm;
         vm.isLockSidenav = isGtSm;
         vm.isShowSidenav = isGtSm;
+
         if (!isGtSm) {
             $timeout(function() {
                 $animate.enabled(siteSideNav, true);

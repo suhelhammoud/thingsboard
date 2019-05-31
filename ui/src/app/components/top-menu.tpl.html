@@ -15,7 +15,8 @@
     limitations under the License.
 
 -->
-<ul flex layout="column" layout-align="start stretch" class="tb-top-menu">
+<ul flex layout="row" layout-align="start stretch" class="tb-top-menu">
+    <div><span style="white-space:nowrap;">CAIoT Platform</span></div>
     <li ng-repeat="section in sections" class="parent-list-item" ng-class="{'parentActive' : isOpen(section)}">
         <tb-menu-link section="section"></tb-menu-link>
     </li>
